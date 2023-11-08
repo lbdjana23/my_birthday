@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('birthday.jpg'); /* Ganti 'background.jpg' dengan URL gambar latar belakang yang sesuai */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif; /* Ganti font sesuai keinginan Anda */
+}
+
+.countdown-container {
+  font-size: 1.7rem;
+  color: #434A50;
+  z-index: 1;
+  text-align: center;
+}
+
+#countdown {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+#refresh-button {
+  background-color: #847980;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#refresh-button:hover {
+  background-color: #CAA78C;
+}
+
+#refresh-buttonn {
+  background-color: #CAA78C;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
